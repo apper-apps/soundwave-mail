@@ -15,6 +15,118 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0F172A;
+  color: #E2E8F0;
+}
+
+/* Glass morphism effects */
+.glass-panel {
+  background: rgba(30, 41, 59, 0.4);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.glass-button {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.glass-button:hover {
+  border-color: rgba(99, 102, 241, 0.3);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #6366F1, #8B5CF6, #EC4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Waveform animations */
+.waveform-bar {
+  background: rgba(99, 102, 241, 0.3);
+  transition: all 0.3s ease;
+}
+
+.waveform-bar.active {
+  background: #6366F1;
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
+}
+
+/* Toast customization */
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__toast {
+  background: rgba(30, 41, 59, 0.9);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: #E2E8F0;
+}
+
+.Toastify__toast--success {
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.Toastify__toast--error {
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+.Toastify__toast--warning {
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.Toastify__toast--info {
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.Toastify__progress-bar {
+  background: linear-gradient(90deg, #6366F1, #8B5CF6);
+}
+
+.Toastify__close-button {
+  color: #E2E8F0;
+  opacity: 0.7;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(30, 41, 59, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.5);
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.7);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
