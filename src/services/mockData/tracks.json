@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "title": "Midnight Dreams",
+    "artist": "Luna Waves",
+    "album": "Echoes of Tomorrow",
+    "duration": 243,
+    "url": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+    "artwork": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop",
+    "waveformData": [0.1, 0.3, 0.5, 0.7, 0.9, 0.6, 0.4, 0.8, 0.2, 0.5, 0.9, 0.7, 0.3, 0.6, 0.8, 0.4, 0.2, 0.7, 0.5, 0.9, 0.3, 0.6, 0.8, 0.4, 0.1, 0.5, 0.7, 0.9, 0.2, 0.4, 0.6, 0.8, 0.3, 0.5, 0.7, 0.1, 0.9, 0.4, 0.6, 0.2, 0.8, 0.5, 0.3, 0.7, 0.9, 0.1, 0.4, 0.6, 0.8, 0.2]
+  },
+  {
+    "Id": 2,
+    "title": "Electric Horizon",
+    "artist": "Neon Pulse",
+    "album": "Digital Sunrise",
+    "duration": 198,
+    "url": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+    "artwork": "https://images.unsplash.com/photo-1571974599782-87624638275c?w=300&h=300&fit=crop",
+    "waveformData": [0.2, 0.4, 0.6, 0.8, 0.3, 0.5, 0.7, 0.9, 0.1, 0.4, 0.6, 0.8, 0.2, 0.5, 0.7, 0.3, 0.9, 0.1, 0.4, 0.6, 0.8, 0.2, 0.5, 0.7, 0.9, 0.3, 0.1, 0.4, 0.6, 0.8, 0.2, 0.5, 0.7, 0.9, 0.1, 0.3, 0.4, 0.6, 0.8, 0.2, 0.5, 0.7, 0.9, 0.1, 0.3, 0.4, 0.6, 0.8, 0.2, 0.5]
+  },
+  {
+    "Id": 3,
+    "title": "Cosmic Journey",
+    "artist": "Stellar Drift",
+    "album": "Beyond the Stars",
+    "duration": 287,
+    "url": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+    "artwork": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=300&h=300&fit=crop",
+    "waveformData": [0.5, 0.7, 0.2, 0.8, 0.4, 0.9, 0.1, 0.6, 0.3, 0.7, 0.5, 0.2, 0.8, 0.4, 0.9, 0.1, 0.6, 0.3, 0.7, 0.5, 0.2, 0.8, 0.4, 0.9, 0.1, 0.6, 0.3, 0.7, 0.5, 0.2, 0.8, 0.4, 0.9, 0.1, 0.6, 0.3, 0.7, 0.5, 0.2, 0.8, 0.4, 0.9, 0.1, 0.6, 0.3, 0.7, 0.5, 0.2, 0.8, 0.4]
+  },
+  {
+    "Id": 4,
+    "title": "Urban Nights",
+    "artist": "City Lights",
+    "album": "Metropolitan Dreams",
+    "duration": 205,
+    "url": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+    "artwork": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=300&h=300&fit=crop",
+    "waveformData": [0.3, 0.6, 0.9, 0.4, 0.7, 0.1, 0.5, 0.8, 0.2, 0.6, 0.9, 0.3, 0.7, 0.1, 0.4, 0.8, 0.2, 0.5, 0.9, 0.3, 0.6, 0.1, 0.7, 0.4, 0.8, 0.2, 0.5, 0.9, 0.3, 0.6, 0.1, 0.7, 0.4, 0.8, 0.2, 0.5, 0.9, 0.3, 0.6, 0.1, 0.7, 0.4, 0.8, 0.2, 0.5, 0.9, 0.3, 0.6, 0.1, 0.7]
+  },
+  {
+    "Id": 5,
+    "title": "Ocean Breeze",
+    "artist": "Tidal Wave",
+    "album": "Serenity",
+    "duration": 234,
+    "url": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+    "artwork": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop",
+    "waveformData": [0.1, 0.4, 0.7, 0.3, 0.6, 0.9, 0.2, 0.5, 0.8, 0.1, 0.4, 0.7, 0.3, 0.6, 0.9, 0.2, 0.5, 0.8, 0.1, 0.4, 0.7, 0.3, 0.6, 0.9, 0.2, 0.5, 0.8, 0.1, 0.4, 0.7, 0.3, 0.6, 0.9, 0.2, 0.5, 0.8, 0.1, 0.4, 0.7, 0.3, 0.6, 0.9, 0.2, 0.5, 0.8, 0.1, 0.4, 0.7, 0.3, 0.6]
+  },
+  {
+    "Id": 6,
+    "title": "Forest Whispers",
+    "artist": "Nature's Call",
+    "album": "Woodland Tales",
+    "duration": 189,
+    "url": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+    "artwork": "https://images.unsplash.com/photo-1571974599782-87624638275c?w=300&h=300&fit=crop",
+    "waveformData": [0.6, 0.2, 0.8, 0.4, 0.1, 0.7, 0.3, 0.9, 0.5, 0.2, 0.8, 0.4, 0.1, 0.7, 0.3, 0.9, 0.5, 0.2, 0.8, 0.4, 0.1, 0.7, 0.3, 0.9, 0.5, 0.2, 0.8, 0.4, 0.1, 0.7, 0.3, 0.9, 0.5, 0.2, 0.8, 0.4, 0.1, 0.7, 0.3, 0.9, 0.5, 0.2, 0.8, 0.4, 0.1, 0.7, 0.3, 0.9, 0.5, 0.2]
+  }
+]
