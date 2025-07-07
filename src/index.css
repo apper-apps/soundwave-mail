@@ -1,7 +1,113 @@
 @import 'react-toastify/dist/ReactToastify.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply bg-background text-white;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-surface;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-secondary;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-surface/80 backdrop-blur-md border border-white/10 rounded-xl shadow-glass;
+  }
+
+  .glass-button {
+    @apply bg-white/5 hover:bg-white/10 backdrop-blur-sm border border-white/10 rounded-lg transition-all duration-200;
+  }
+
+  .glass-button:hover {
+    @apply border-primary/50 shadow-glow;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+
+  .waveform-bar {
+    @apply bg-white/20 rounded-full transition-all duration-150;
+  }
+
+  .waveform-bar.active {
+    @apply bg-primary shadow-glow;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .backdrop-blur-xs {
+    backdrop-filter: blur(2px);
+  }
+}
+
+/* Toast customization */
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__toast {
+  @apply bg-surface border border-white/10 text-white rounded-xl backdrop-blur-md;
+}
+
+.Toastify__toast--success {
+  @apply border-success/30;
+}
+
+.Toastify__toast--error {
+  @apply border-error/30;
+}
+
+.Toastify__toast--warning {
+  @apply border-warning/30;
+}
+
+.Toastify__toast--info {
+  @apply border-info/30;
+}
+
+.Toastify__progress-bar {
+  @apply bg-primary;
+}
+
+.Toastify__close-button {
+  @apply text-white/70 hover:text-white;
+}
 
 /* Base styles */
 * {
